@@ -113,6 +113,7 @@ header {
 
 .current {
     color: #404bbf;
+
 }
 
 .current::after {
@@ -126,8 +127,6 @@ header {
     bottom: -1px;
 }
 
-.nav-list:hover,
-.nav-list:focus,
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf
