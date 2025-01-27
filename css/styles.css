@@ -62,7 +62,6 @@ img {
 header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
 }
 
 /*------------Header--------------*/
@@ -117,7 +116,9 @@ header {
 }
 
 .nav-list:hover,
-.nav-list:focus {
+.nav-list:focus,
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf
 }
 
@@ -134,10 +135,7 @@ header {
 }
 
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
+
 
 .adress-list {
     font-style: normal;
