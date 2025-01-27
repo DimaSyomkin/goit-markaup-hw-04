@@ -383,7 +383,7 @@ header {
 }
 
 .team-link:hover,
-.team-link:active {
+.team-link:focus {
     background-color: #404bbf;
 }
 
@@ -424,6 +424,9 @@ header {
 
 .portfolio-list {
     width: calc((100% - 48px) / 3);
+    transition-property: box-shadow;
+    transition: box-shadow 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -491,7 +494,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 32px;
+    padding: 40px 32px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
