@@ -87,15 +87,27 @@ header {
 }
 
 .nav-list {
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
 
+.current {
+    position: relative;
+}
+
+.current::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    border-color: #404bbf;
+    left: 0;
+    border-radius: 2px;
+    bottom: 0;
+}
 
 .nav-list:hover,
 .nav-list:focus {
@@ -194,7 +206,11 @@ header {
 .main {
     background: #2e2f42;
     padding: 188px 0;
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: center;
 }
 
 .main-text {
@@ -323,6 +339,34 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.team-icon-list {
+    display: flex;
+
+    margin: 0 auto;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+.link-team {
+
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.lishka {
+    width: 40px;
+    height: 40px;
 }
 
 /*------------Portfolio--------------*/
