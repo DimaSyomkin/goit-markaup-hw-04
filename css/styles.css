@@ -553,7 +553,7 @@ header {
 }
 
 
-.container footer-cont {
+.footer-cont {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
@@ -597,4 +597,9 @@ header {
 
 .team-icon {
     fill: #f4f4fd;
+}
+
+.left-footer {
+    margin-right: 120px;
+
 }
